@@ -1,7 +1,7 @@
 #brand{
     font-weight: bold;
     margin-left: 35px;
-    font-size: 150%;
+    font-size: 180%;
   }
 
   h2 {
@@ -24,43 +24,55 @@
 }
 ion-icon{
   font-size: 20px;
+  color:white;
 }
 .text-center{
     
     text-align: center;
     background-color:rgb(138, 15, 52);
-    height: 40%;
-    width:40%;
+    height: 80%;
+    width:60%;
 }
 
 .text-center2{
     text-align: center;
     background-color:green;
-    height: 40%;
-    width:40%;
+    height: 80%;
+    width:60%;
 }
 
 .text-center3{
     text-align: center;
     background-color:blue;
-    height: 40%;
-    width:40%;
+    left: 12%;
+    width: 60%;
+    margin-top: 20px;
     
 }
 
 .text-center4{
     text-align: center;
     background-color: rgb(190, 75, 94);
-    height: 40%;
-    width:40%;
+    height: 80%;
+    width:60%;
+    left:20%;
 }
 
-
+.exam{
+    left:15%;
+    margin-top: 20px;
+    width:60%;
+   
+}
+.margin{
+    left:30%;
+}
 
 ion-icon {
     
     font-size: 70px;
     align: center;
+    color: #F1F1F1;
      //Preferred size here
 }
 
