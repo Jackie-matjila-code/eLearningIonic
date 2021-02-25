@@ -22,7 +22,27 @@ const routes: Routes = [
   {
     path: 'dashboard',
     loadChildren: () => import('./Components/dashboard/dashboard.module').then( m => m.DashboardPageModule)
+  },  {
+    path: 'assessment',
+    loadChildren: () => import('./components/assessment/assessment.module').then( m => m.AssessmentPageModule)
   },
+  {
+    path: 'quiz',
+    loadChildren: () => import('./components/quiz/quiz.module').then( m => m.QuizPageModule)
+  },
+  {
+    path: 'experiments',
+    loadChildren: () => import('./components/experiments/experiments.module').then( m => m.ExperimentsPageModule)
+  },
+  {
+    path: 'skills',
+    loadChildren: () => import('./components/skills/skills.module').then( m => m.SkillsPageModule)
+  },
+  {
+    path: 'contactus',
+    loadChildren: () => import('./components/contactus/contactus.module').then( m => m.ContactusPageModule)
+  },
+
 
 ];
 
