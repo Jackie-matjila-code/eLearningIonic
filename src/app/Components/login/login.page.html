@@ -1,9 +1,36 @@
-<ion-header>
-  <ion-toolbar>
-    <ion-title>login</ion-title>
-  </ion-toolbar>
-</ion-header>
 
-<ion-content>
-
-</ion-content>
+  <ion-header class="ion-no-border">
+    <ion-toolbar>
+      
+      <ion-buttons>
+        <ion-back-button></ion-back-button>
+        <div class="back-circle"></div>
+      <ion-title class="ion-text-center custom-font">Login</ion-title>
+    </ion-buttons>
+    </ion-toolbar>
+  </ion-header>
+  
+  <ion-content fullscreen="true">
+  
+  <div class="ion-padding">
+  
+    <form class="ion-padding">
+  
+      <div class="wrap-input">
+      <input class="input" type="email" name="email" [(ngModel)]="email" placeholder="Email">
+      </div>
+  
+      <div class="wrap-input">
+      <input class="input" type="password" name="password" [(ngModel)]="password" placeholder="Password">
+      </div>
+  
+    
+  
+      <div class="container-form-btn">
+        <button class="form-btn custom-font" (click)="login()">
+        Login
+        </button>
+      </div>
+  
+  
+    </form>

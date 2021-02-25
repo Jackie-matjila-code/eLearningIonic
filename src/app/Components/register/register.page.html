@@ -1,9 +1,51 @@
-<ion-header>
-  <ion-toolbar>
-    <ion-title>register</ion-title>
-  </ion-toolbar>
+
+<ion-header class="ion-no-border">
+	<ion-toolbar>
+    <div class="back-circle"></div>
+		<ion-title class="ion-text-center custom-font">Sign Up</ion-title>
+	</ion-toolbar>
 </ion-header>
 
-<ion-content>
+<ion-content fullscreen="true">
+
+
+<div class="ion-padding">
+
+  <form class="ion-padding">
+
+    <div class="wrap-input">
+    <input class="input" type="email" name="email" [(ngModel)]="email" placeholder="Email">
+    </div>
+
+    <div class="wrap-input">
+    <input class="input" type="password" name="password" [(ngModel)]="password" placeholder="Password">
+    </div>
+
+    <div class="wrap-input">
+    <input class="input" type="password" name="password" [(ngModel)]="cpassword" placeholder="Confirm Password">
+    </div> 
+
+    <div class="container-form-btn">
+      <button class="form-btn custom-font" (click)="login()">
+        Sign-up with Google
+      </button>
+    </div><br>  
+
+    <div class="container-form-btn">
+      <button class="form-btn custom-font" (click)="register()">
+      Sign-up with Email
+      </button>
+    </div><br>  
+    <div class="container-form-btn" >
+      <button class="form-btn custom-font" >   
+        Sign-up with Facebook
+      </button>
+    </div>   
+
+
+  </form>
+
+</div>
 
 </ion-content>
+
