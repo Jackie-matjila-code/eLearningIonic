@@ -4,15 +4,17 @@
     font-size: 150%;
   }
 
-  h1 {
+  h2 {
     font-weight: bold;
     margin-left: 35px;
     font-size: 150%;
   text-align: center;
   margin-top: 3%;
+  color: #F1F1F1;
+
 
   }
-
+  
   .margin{
     margin-top: 30px;
     left:23%;
@@ -27,30 +29,32 @@ ion-icon{
     
     text-align: center;
     background-color:rgb(138, 15, 52);
-    height: 50%;
-    width:50%;
+    height: 40%;
+    width:40%;
 }
 
 .text-center2{
     text-align: center;
     background-color:green;
-    height: 50%;
-    width:50%;
+    height: 40%;
+    width:40%;
 }
 
 .text-center3{
     text-align: center;
     background-color:blue;
-    height: 50%;
-    width:50%;
+    height: 40%;
+    width:40%;
+    
 }
 
 .text-center4{
     text-align: center;
     background-color: rgb(190, 75, 94);
-    height: 50%;
-    width:50%;
+    height: 40%;
+    width:40%;
 }
+
 
 
 ion-icon {
