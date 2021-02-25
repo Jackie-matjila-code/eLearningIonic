@@ -44,6 +44,9 @@ ion-icon{
 .text-center3{
     text-align: center;
     background-color:blue;
+    height: 80%;
+    width:60%;
+    height: 80%;
     left: 12%;
     width: 60%;
     margin-top: 20px;
@@ -60,6 +63,7 @@ ion-icon{
 
 .exam{
     left:15%;
+    height:80%;
     margin-top: 20px;
     width:60%;
    
@@ -71,7 +75,7 @@ ion-icon{
 ion-icon {
     
     font-size: 70px;
-    align: center;
+    align: right;
     color: #F1F1F1;
      //Preferred size here
 }
@@ -93,8 +97,13 @@ ion-icon {
   padding: 6px 8px 6px 16px;
   text-decoration: none;
   font-size: 25px;
-  color: #818181;
+  color: white;
   display: block;
+}
+h4{
+    text-align: center;
+    text-decoration: none;
+    text-transform: uppercase;
 }
 .sidenav a:hover {
   color: #F1F1F1;
